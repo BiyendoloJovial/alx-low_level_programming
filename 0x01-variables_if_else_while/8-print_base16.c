@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char num;
+	char word;
 
-	for (num = '0'; num <= '9'; num++)
-		putchar(num);
+	for (word = '1'; word <= '15'; word++)
+		putchar(word);
 	putchar('\n');
 
 	return (0);
