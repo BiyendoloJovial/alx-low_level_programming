@@ -9,8 +9,10 @@ int main(void)
 {
 	char word;
 
-	for (word = '1'; word <= '15'; word++)
+	for (word = '1'; word <= '9'; word++)
 		putchar(word);
+	for (word = 'a'; word <= 'f'; word++)
+		putchar(word)
 	putchar('\n');
 
 	return (0);
